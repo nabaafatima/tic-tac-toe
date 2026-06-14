@@ -1,0 +1,48 @@
+@import url('https://googleapis.com');
+body{
+    background-color: bisque;
+    font-family: "short stack";
+    padding: 0;
+    margin: 0;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+#turn{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(193, 150, 85);
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    left: 400px;
+    border: 2px solid black;
+}
+#reset{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(193, 150, 85);
+    position: absolute;
+    left: 600px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+#grid{
+    display: grid;
+    width: 500px;
+    height: 500px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+}
+.cell{
+    background-color: rgb(193, 150, 85);
+    border: 2px solid black;
+    gap: 10px;
+}
