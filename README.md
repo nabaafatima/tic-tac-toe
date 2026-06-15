@@ -8,5 +8,5 @@
 - a cute pop up for the winning player
 - background changes when player turn changes
 - reset button
-##live link
+## live link
 https://nabaafatima.github.io/tic-tac-toe/
